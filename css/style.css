@@ -1,5 +1,29 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background: #13201c;
+	
+	
+
+}
+.center{
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	position: absolute;
+}
 table{
 	border-collapse: collapse;
+	background: white;
+	 margin: 0 auto;
+	
+}
+tr{
+	background: #13201c;	
 }
 td{
 	border:10px solid #2d2819;
@@ -21,12 +45,15 @@ th{
 }
 .down{
 	border-bottom: 0px;
+	background: white;
 }
 .left{
 	border-left: 0px;
+	background: white;
 }
 .right{
 	border-right: 0px;
+	background: white;
 }
 .right1{
 	border-right: 0px;
@@ -49,10 +76,12 @@ th{
 .downleft{
 	border-bottom: 0px;
 	border-left: 0px;
+	background: #ffed6e;
 }
 .downright{
 	border-bottom: 0px;
 	border-right: 0px;
+	background: white;
 }
 .inner{
 	background: #ff6532;
@@ -62,4 +91,7 @@ th{
 }
 .inner2{
 	background: #081610;
+}
+.innerw{
+	background: white;
 }
